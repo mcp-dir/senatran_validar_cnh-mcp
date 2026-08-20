@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/senatran_validar_cnh-mcp",
+  "title": "SENATRAN: Validar CNH",
+  "description": "SENATRAN: Validar CNH, official-source lookup. Platform-hosted, pay per query with prepaid credit.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/senatran_validar_cnh-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_senatran_validar_cnh"
+    }
+  ]
+}
